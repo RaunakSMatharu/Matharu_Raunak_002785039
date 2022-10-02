@@ -17,7 +17,7 @@ public class Employee {
     private String Level;
     private String TeamInfo;
     private String Position;
-    private String Cell_No;
+    private int Cell_No;
     private String Email_ID;
 
     public String getName() {
@@ -84,11 +84,11 @@ public class Employee {
         this.Position = Position;
     }
 
-    public String getCell_No() {
+    public int getCell_No() {
         return Cell_No;
     }
 
-    public void setCell_No(String Cell_No) {
+    public void setCell_No(int Cell_No) {
         this.Cell_No = Cell_No;
     }
 
@@ -99,9 +99,4 @@ public class Employee {
     public void setEmail_ID(String Email_ID) {
         this.Email_ID = Email_ID;
     }
-
-   @Override
-   public String toString(){
-       return Name;
-   }
 }
